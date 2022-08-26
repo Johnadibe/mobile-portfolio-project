@@ -492,7 +492,7 @@ body {
   gap: 2.4rem;
 }
 
-@media screen and (min-width: 48em) and (max-width: 60em) {
+@media screen and (min-width: 768px) and (max-width: 960px) {
   html {
     font-size: 55%;
   }
@@ -808,7 +808,7 @@ body {
   }
 }
 
-@media screen and (min-width: 60em) and (max-width: 74em) {
+@media screen and (min-width: 961px) and (max-width: 1185px) {
   html {
     font-size: 56.25%;
   }
@@ -1140,7 +1140,7 @@ body {
   }
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 1200px) {
   html {
     font-size: 62.5%;
   }
@@ -1470,7 +1470,7 @@ body {
   }
 }
 
-@media screen and (min-width: 92em) {
+@media screen and (min-width: 1480px) {
   html {
     font-size: 75%;
   }
