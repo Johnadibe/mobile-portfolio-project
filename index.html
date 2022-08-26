@@ -11,19 +11,32 @@
 
 <body>
     <header class="header padding-left-right">
-        <a href="#">
-            <h2 class="logo">John Doe</h2>
+        <a class="logo-link" href="#">
+            <h2 class="logo">John Adibe</h2>
         </a>
         <nav class="main-nav">
-            <img class="menu-icon" src="img/menu.svg" alt="Hamburger menu icon" />
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#">Portfolio</a></li>
+                <li><a class="main-nav-link" href="#">About</a></li>
+                <li><a class="main-nav-link" href="#">Contact</a></li>
+                <li>
+                    <button class="mail-icon">
+<img src="img/icon-mail.svg" alt="Mail Icon" />
+</button>
+                </li>
+            </ul>
         </nav>
+
+        <button class="btn-mobile-nav">
+<img class="menu-icon" src="img/menu.svg" alt="Hamburger menu icon" />
+</button>
     </header>
 
     <section class="headline-section padding-left-right">
         <div class="headline-box">
             <div class="headline-text-box">
                 <h1 id="headline-primary">
-                    Hey There. <br /> I'm Alex
+                    Hey There. <br /> I'm John
                 </h1>
                 <p class="headline-title">I am a software developer</p>
                 <p class="headline-description">
@@ -69,125 +82,134 @@
     </section>
 
     <section class="works-section padding-left-right">
-        <h2 class="works-heading">My Recent Works</h2>
+        <div class="works">
+            <h2 class="works-heading">My Recent Works</h2>
+            <hr class="recent-works" />
+        </div>
         <div class="post-stories">
             <img src="img/post-stories.svg" alt="A spinning girl in a circle" />
-            <h3 class="post-stories-heading">Multi-Post Stories</h3>
-            <p class="post-stories-description">
-                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-            </p>
-            <ul class="works-list">
-                <li>css</li>
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <a class="btn-sm" href="#">See Project</a>
-        </div>
-
-        <div class="art-printing">
-            <div class="art-printing-inner">
-                <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                <p class="art-printing-description">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+            <div class="post-text-box">
+                <h3 class="post-stories-heading">Multi-Post Stories</h3>
+                <p class="post-stories-description">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
                 </p>
-                <ul class="art-printing-list">
+                <ul class="works-list">
+                    <li>css</li>
                     <li>html</li>
                     <li>bootstrap</li>
                     <li>Ruby</li>
                 </ul>
+                <a class="btn-sm" href="#">See Project</a>
             </div>
-            <a class="btn-lg" href="#">See Project</a>
         </div>
 
-        <div class="art-printing">
-            <div class="art-printing-inner">
-                <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                <p class="art-printing-description">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                </p>
-                <ul class="art-printing-list">
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
+        <div class="art-printing-container">
+            <div class="art-printing bg-1">
+                <div class="art-printing-inner inner-remove">
+                    <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                    <p class="art-printing-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                    </p>
+                    <ul class="art-printing-list">
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <a class="btn-lg" href="#">See Project</a>
             </div>
-            <a class="btn-lg btn-dark-yellow" href="#">See Project</a>
-        </div>
 
-        <div class="art-printing">
-            <div class="art-printing-inner">
-                <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                <p class="art-printing-description">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                </p>
-                <ul class="art-printing-list">
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
+            <div class="art-printing bg-2">
+                <div class="art-printing-inner">
+                    <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                    <p class="art-printing-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                    </p>
+                    <ul class="art-printing-list">
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <a class="btn-lg btn-dark-yellow" href="#">See Project</a>
             </div>
-            <a class="btn-lg" href="#">See Project</a>
-        </div>
 
-        <div class="art-printing">
-            <div class="art-printing-inner">
-                <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                <p class="art-printing-description">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                </p>
-                <ul class="art-printing-list">
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
+            <div class="art-printing bg-3">
+                <div class="art-printing-inner">
+                    <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                    <p class="art-printing-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                    </p>
+                    <ul class="art-printing-list">
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <a class="btn-lg" href="#">See Project</a>
             </div>
-            <a class="btn-lg" href="#">See Project</a>
-        </div>
 
-        <div class="art-printing">
-            <div class="art-printing-inner">
-                <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                <p class="art-printing-description">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                </p>
-                <ul class="art-printing-list">
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
+            <div class="art-printing bg-4">
+                <div class="art-printing-inner">
+                    <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                    <p class="art-printing-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                    </p>
+                    <ul class="art-printing-list">
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <a class="btn-lg" href="#">See Project</a>
             </div>
-            <a class="btn-lg" href="#">See Project</a>
-        </div>
 
-        <div class="art-printing">
-            <div class="art-printing-inner">
-                <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                <p class="art-printing-description">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                </p>
-                <ul class="art-printing-list">
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
+            <div class="art-printing bg-5">
+                <div class="art-printing-inner">
+                    <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                    <p class="art-printing-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                    </p>
+                    <ul class="art-printing-list">
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <a class="btn-lg" href="#">See Project</a>
             </div>
-            <a class="btn-lg btn-dark-yellow" href="#">See Project</a>
+
+            <div class="art-printing bg-6">
+                <div class="art-printing-inner">
+                    <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                    <p class="art-printing-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                    </p>
+                    <ul class="art-printing-list">
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <a class="btn-lg btn-dark-yellow" href="#">See Project</a>
+            </div>
         </div>
     </section>
 
     <section class="about-section padding-left-right">
         <div class="about-box">
-            <h2 class="about-heading">About me</h2>
-            <p class="about-description">
-                Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <a class="btn-sm" href="#">Get my Resume</a>
+            <div class="about-text-box">
+                <h2 class="about-heading">About me</h2>
+                <p class="about-description">
+                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <a class="btn-sm" href="#">Get my Resume</a>
+            </div>
 
             <div class="about-img"></div>
         </div>
 
-        <hr />
+        <hr class="about" />
 
         <div class="about-categories">
             <div class="categories">
@@ -234,19 +256,21 @@
     </section>
 
     <footer class="contact">
-        <div class="contact-text-box padding-left-right">
-            <h2 class="contact-heading">
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </h2>
+        <div class="contact-box">
+            <div class="contact-text-box padding-left-right">
+                <h2 class="contact-heading">
+                    I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </h2>
+            </div>
+            <form class="contact-form padding-left-right" action="https://formspree.io/f/xayvglaa" method="post">
+                <fieldset class="contact-group">
+                    <input type="text" name="user_full_name" placeholder="Full name" required maxlength="30" />
+                    <input type="email" name="user_email" placeholder="Email address" required />
+                    <textarea name="user_message" placeholder="Enter text here" required maxlength="500"></textarea>
+                </fieldset>
+                <input class="btn-form" type="submit" name="submit" value="Get in touch" />
+            </form>
         </div>
-        <form class="contact-form padding-left-right" action="https://formspree.io/f/xayvglaa" method="post">
-            <fieldset class="contact-group">
-                <input type="text" name="user_full_name" placeholder="Full name" required maxlength="30" />
-                <input type="email" name="user_email" placeholder="Email address" required />
-                <textarea name="user_message" placeholder="Enter text here" required maxlength="500"></textarea>
-            </fieldset>
-            <input class="btn-form" type="submit" name="submit" value="Get in touch" />
-        </form>
 
         <div class="footer-social-icons">
             <ul class="social-icons-list">
