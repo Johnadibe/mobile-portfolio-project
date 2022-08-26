@@ -4,7 +4,7 @@ Mobile First Portfolio Setup
 
 # Description the project.
 
-The Project is to build the works and about section of a personal portfolio site in a Mobile first Approach.
+The Project is to build the Desktop version of a personal portfolio site.
 
 The pull request is opened to get a review on the project and check for any required changes.
 
@@ -52,11 +52,8 @@ $ git clone {https://github.com/Johnadibe/mobile-portfolio-project.git}
 
 ## 🤝 Contributing
 
-**Harrison Njuguna**
-
-- GitHub: [@githubhandle](@Harrynqs)
-- Twitter: [@twitterhandle](@nqsnoq1)
-- LinkedIn: [LinkedIn](Harrisonnjuguna)
+Contributions, issues, and feature requests are welcome!
+thanks:
 
 ## Show your support
 
