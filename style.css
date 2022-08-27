@@ -205,6 +205,7 @@ body {
   line-height: 2.4rem;
   letter-spacing: 0.03em;
   color: #fff;
+  transition: all 0.7s;
 }
 
 .btn-sm:hover,
@@ -469,6 +470,7 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   cursor: pointer;
+  transition: all 0.7s;
 }
 
 .btn-form:hover {
@@ -527,6 +529,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
+    transition: all 0.7s;
   }
 
   .main-nav-link:hover,
@@ -628,6 +631,11 @@ body {
 
   .post-stories img {
     width: 100%;
+    transition: all 0.7s;
+  }
+
+  .post-stories img:hover {
+    transform: scale(1.03);
   }
 
   .post-stories-heading {
@@ -699,6 +707,7 @@ body {
 
   .btn-lg {
     background-color: #f55800;
+    transition: all 0.7s;
   }
 
   .btn-lg:hover,
@@ -847,6 +856,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
+    transition: all 0.7s;
   }
 
   .main-nav-link:hover,
@@ -960,6 +970,11 @@ body {
 
   .post-stories img {
     width: 100%;
+    transition: all 0.7s;
+  }
+
+  .post-stories img:hover {
+    transform: scale(1.03);
   }
 
   .post-stories-heading {
@@ -1031,6 +1046,7 @@ body {
 
   .btn-lg {
     background-color: #f55800;
+    transition: all 0.7s;
   }
 
   .btn-lg:hover,
@@ -1179,6 +1195,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
+    transition: all 0.7s;
   }
 
   .main-nav-link:hover,
@@ -1190,6 +1207,7 @@ body {
     border: none;
     background: none;
     cursor: pointer;
+    transition: all 0.7s;
   }
 
   .mail-icon:hover,
@@ -1290,6 +1308,11 @@ body {
 
   .post-stories img {
     width: 100%;
+    transition: all 0.7s;
+  }
+
+  .post-stories img:hover {
+    transform: scale(1.03);
   }
 
   .post-stories-heading {
@@ -1316,6 +1339,14 @@ body {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.4rem;
     row-gap: 3.7rem;
+  }
+
+  .art-printing {
+    transition: all 0.7s;
+  }
+
+  .art-printing:hover {
+    transform: scale(1.03);
   }
 
   .bg-1 {
@@ -1361,6 +1392,7 @@ body {
 
   .btn-lg {
     background-color: #f55800;
+    transition: all 0.7s;
   }
 
   .btn-lg:hover,
