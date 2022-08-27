@@ -205,6 +205,7 @@ body {
   line-height: 2.4rem;
   letter-spacing: 0.03em;
   color: #fff;
+  transition: all 0.7s;
 }
 
 .btn-sm:hover,
@@ -469,6 +470,7 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   cursor: pointer;
+  transition: all 0.7s;
 }
 
 .btn-form:hover {
@@ -527,6 +529,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
+    transition: all 0.7s;
   }
 
   .main-nav-link:hover,
@@ -699,6 +702,7 @@ body {
 
   .btn-lg {
     background-color: #f55800;
+    transition: all 0.7s;
   }
 
   .btn-lg:hover,
@@ -847,6 +851,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
+    transition: all 0.7s;
   }
 
   .main-nav-link:hover,
@@ -1031,6 +1036,7 @@ body {
 
   .btn-lg {
     background-color: #f55800;
+    transition: all 0.7s;
   }
 
   .btn-lg:hover,
@@ -1179,6 +1185,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #fff;
+    transition: all 0.7s;
   }
 
   .main-nav-link:hover,
@@ -1190,6 +1197,7 @@ body {
     border: none;
     background: none;
     cursor: pointer;
+    transition: all 0.7s;
   }
 
   .mail-icon:hover,
@@ -1361,6 +1369,7 @@ body {
 
   .btn-lg {
     background-color: #f55800;
+    transition: all 0.7s;
   }
 
   .btn-lg:hover,
