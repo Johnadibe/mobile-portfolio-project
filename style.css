@@ -1310,6 +1310,7 @@ body {
     width: 100%;
     transition: all 0.7s;
   }
+
   .post-stories img:hover {
     transform: scale(1.03);
   }
